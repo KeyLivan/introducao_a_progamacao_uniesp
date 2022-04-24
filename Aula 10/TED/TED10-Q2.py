@@ -21,4 +21,4 @@ for chave, valor in enumerate(VET):
 
 for valor in chaves:
     if len(chaves[valor]) > 1:
-        print(f'O numero {valor} se repetede nos indecis {chaves[valor]}')
+        print(f'O numero {valor} se repete nos indecis {chaves[valor]}')
