@@ -40,8 +40,6 @@ print('=' * 100)
 
 # b. E, criei uma nova matriz B, no qual cada item seja o valor da matriz A * 3;
 
-numeros_multiplicados = []
-
 matriz_10x10_B = numpy.array(matriz_10x10_A)
 matriz_10x10_B = matriz_10x10_B * 3
 
