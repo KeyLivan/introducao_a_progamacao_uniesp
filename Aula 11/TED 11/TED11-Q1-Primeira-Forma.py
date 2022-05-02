@@ -52,4 +52,6 @@ for linha in matriz_10x10_A:
     matriz_10x10_B.append(linha_auxiliar_B)
 
 matriz_10x10_B = numpy.array(matriz_10x10_B)
+
+print('--- Nova matriz multiplicada por 3 ---')
 print(matriz_10x10_B)
