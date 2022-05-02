@@ -43,5 +43,5 @@ print('=' * 100)
 matriz_10x10_B = numpy.array(matriz_10x10_A)
 matriz_10x10_B = matriz_10x10_B * 3
 
-print('--- Nova matriz 10 x 10 ---')
+print('--- Nova matriz multiplicada por 3 ---')
 print(matriz_10x10_B)
