@@ -156,9 +156,9 @@ while controle != 0:
                 print('Deseja excluir esse funcionario?')
                 print('0 - Não')
                 print('1 - Sim')
-                opcoes = int(input('Digte a opcão: '))
+                opcoes = input('Digte a opcão: ')
 
-                if opcoes == 1:
+                if opcoes == '1':
                     del cadastros[i]
                     
         print('='*100)
