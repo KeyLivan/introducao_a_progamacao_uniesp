@@ -24,7 +24,7 @@ while controle != 0:
     print('2 - Alterar um funcionario')
     print('3 - Listar todos os funcionários')
     print('4 - Excluir um funcionário')
-    print('5 - Adicionar um amumento de salário')
+    print('5 - Adicionar um aumento de salário')
     print('0 - encessar a sessão')
     print('\n')
     controle = int(input('Digite a opção: '))
