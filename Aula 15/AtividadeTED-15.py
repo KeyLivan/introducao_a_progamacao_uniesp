@@ -111,18 +111,26 @@ while controle != 0:
                     elif opcoes == 2:
 
                         fc['Nome'] = (input('Digite o novo Nome: '))
+                        print('\n')
+                        print('Alteração concluida!')
                     
                     elif opcoes == 3:
 
                         fc['E-mail'] = (input('Digite o novo E-mail: '))
+                        print('\n')
+                        print('Alteração concluida!')
                     
                     elif opcoes == 4:
 
                         fc['Admissão'] = (input('Digite a nova data de Admissão: '))
+                        print('\n')
+                        print('Alteração concluida!')
                     
                     elif opcoes == 5:
 
                         fc['Salário'] = float(input('Digite o novo salario(apenas numeros): '))
+                        print('\n')
+                        print('Alteração concluida!')
         print('='*100)
         print('\n')
 
