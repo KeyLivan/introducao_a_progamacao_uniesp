@@ -146,12 +146,13 @@ while controle != 0:
         #Excluindo um funcionario
         print('='*100)
         print('\n')
-        codigo = int(input('Digite o codigo do funcionario que deseja excluir: '))  
+        codigo = int(input('Digite o codigo do funcionario que deseja excluir: '))
+        fu_ex = 0
         for i in range(0, len(cadastros)):
             fc = cadastros[i]
                 
             if (codigo == fc['Codigo']):
-                print(cadastros[i])
+                print(fc)
                 
                 print('Deseja excluir esse funcionario?')
                 print('0 - Não')
@@ -159,7 +160,11 @@ while controle != 0:
                 opcoes = input('Digte a opcão: ')
 
                 if opcoes == '1':
-                    del cadastros[i]
+                    fu_ex = fc
+        if fu_ex == 0:
+            pass
+        else:
+            cadastros.remove(fu_ex)
                     
         print('='*100)
         print('\n')
